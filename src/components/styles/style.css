@@ -1,0 +1,334 @@
+.row-login .div-login-left {
+    background: #ECBC76;
+    position: absolute;
+    /* width: 731px; */
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.row-login .div-login-left h4 {
+    position: absolute;
+    width: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #C6553B;
+}
+
+.div-no-account span {
+    color: #8D8D8D
+}
+
+.row-1 .div-no-account span a {
+    color: #B87514;
+    text-decoration: none;
+}
+
+.row-2 label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.alert {
+    --bs-alert-padding-x: 0rem;
+    --bs-alert-padding-y: 0rem;
+}
+
+.row-4 .btn-custom,
+.row-4 .btn-custom:active {
+    border-radius: 9px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+    background: #E48700;
+    border: none;
+    border-radius: 9px;
+    height: 55px;
+}
+
+.forgot-password a {
+    color: #E48700;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.row-6 button img {
+    height: 25px;
+}
+
+@media (min-device-width:481px) {
+    .row-login .div-login-left h4 {
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        left: 42px;
+        top: 31px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height */
+        color: #C6553B;
+    }
+    .row-login .div-login-left .saly-2 {
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        height: 256px;
+        width: 269px;
+        left: 210px;
+        top: 170px;
+        border-radius: 0px;
+        border-bottom: 2px solid #000000;
+    }
+    .row-login .div-login-right .saly-1 {
+        position: absolute;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        height: 450px;
+        width: 450px;
+        right: 100px;
+        top: 170px;
+        border-radius: 0px;
+        transform: rotate(360deg);
+    }
+    .row-login .col-md-6:nth-child(2) {
+        height: 100%;
+        background: #FFFEF9;
+    }
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container {
+        height: 100%;
+    }
+    .row-login .div-login-form-container {
+        position: absolute;
+        width: 560px;
+        height: 650px;
+        left: 480px;
+        top: 55px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08) !important;
+        border-radius: 40px;
+        padding: 35px;
+    }
+    .div-login-form-container .row-1 .div-welcome span {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height */
+        color: #000000;
+    }
+    .div-login-form-container .row-1 .div-welcome h3 {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 55px;
+        line-height: 82px;
+        /* identical to box height */
+        color: #000000;
+    }
+    .div-login-form-container .row-1 .div-no-account span {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        display: block;
+    }
+    .row-2 input::placeholder {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+        color: #808080;
+    }
+    .row-5 span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+        color: #ABABAB;
+    }
+    .row-6 button {
+        height: 55px;
+    }
+    .row-6 button.btn-google,
+    .row-6 button.btn-google:active {
+        background: #FFF4E3;
+        border-radius: 9px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+        color: #B87514;
+        border: none;
+        border-radius: 9px;
+    }
+    .row-6 button.btn-fb,
+    .row-6 button.btn-fb:active,
+    .row-6 button.btn-apple,
+    .row-6 button.btn-apple:active {
+        background: #FFF4E3;
+        border-radius: 9px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+        background: #F7F7F7;
+        border: none;
+        border-radius: 9px;
+    }
+    .div-login-form-container form .form-group div input {
+        min-height: calc(1.5em + 1rem + 2px);
+        padding: 0.5rem 1rem;
+        font-size: 1.25rem;
+        border-radius: 0.5rem;
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        appearance: none;
+        border-radius: 0.375rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+    .row-profile .navbar-brand {
+        width: 100px;
+        height: 30px;
+        margin-left: 42px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height */
+        color: #C6553B;
+    }
+}
+
+@media (max-device-width:480px) {
+    /* smartphones, Android phones, landscape iPhone */
+    .div-login-right,
+    .row-login .div-login-left .saly-2,
+    .row-login .div-login-right .saly-1 {
+        display: none;
+    }
+    .row-login .div-login-form-container {
+        margin: 55px 10px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08) !important;
+        border-radius: 40px;
+        padding: 25px;
+        height: 590px;
+    }
+    .row-login .div-login-left h4 {
+        margin-top: 10px;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .div-welcome span {
+        font-size: 16px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+    }
+    .div-no-account span {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+        color: #8D8D8D;
+        font-family: 'Poppins', sans-serif;
+    }
+    .div-no-account span a {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+        color: #8D8D8D;
+    }
+    .orangeColor {
+        color: #E48700;
+        text-transform: uppercase;
+    }
+    .div-login-form-container .row-1 .div-welcome h3 {
+        font-size: 40px;
+        color: #000000;
+    }
+    .row-2 .form-group label {
+        font-size: 14px;
+    }
+    .row-2 .form-group input::placeholder,
+    .row-2 .form-group input {
+        font-size: 14px;
+        padding: .5rem;
+    }
+    .form-group .alert-danger {
+        font-size: 12px;
+    }
+    .form-control {
+        line-height: 3;
+    }
+    .forgot-password a {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .row-6 button.btn-google,
+    .row-6 button.btn-google:active {
+        background: #FFF4E3;
+        border-radius: 9px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        /* identical to box height */
+        color: #B87514;
+        border: none;
+        border-radius: 9px;
+    }
+    .row-6 button.btn-fb,
+    .row-6 button.btn-fb:active,
+    .row-6 button.btn-apple,
+    .row-6 button.btn-apple:active {
+        background: #FFF4E3;
+        border-radius: 9px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+        background: #F2F2F2;
+        border: none;
+        border-radius: 9px;
+    }
+}
